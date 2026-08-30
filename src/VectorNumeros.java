@@ -77,7 +77,7 @@ public class VectorNumeros {
     // Pide los 15 numeros uno por uno y revisa que esten en el rango pedido.
     // Si el usuario se sale del rango, se le vuelve a pedir el mismo dato sin avanzar de posicion.
     static void llenarVector(int[] numeros) {
-        System.out.println("Vamos a llenar el vector con " + TAMANIO + " numeros entre " + LIMITE_MIN + " y " + LIMITE_MAX + ".");
+        System.out.println("Ingresar " + TAMANIO + " numeros entre " + LIMITE_MIN + " y " + LIMITE_MAX + ".");
 
         int i = 0;
         while (i < TAMANIO) {
